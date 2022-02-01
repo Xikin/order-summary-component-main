@@ -1,0 +1,50 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
+body{
+    background-image: url(/order-summary-component-main/images/pattern-background-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 180px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.illustration{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1 {
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    color:  hsl(224, 23%, 55%);
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 20px;
+    
+}
+
+.plano{
+    background-color: hsl(224, 23%, 55%);
+    border-radius: 20px;
+    margin: 20px;
+}

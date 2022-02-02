@@ -10,7 +10,7 @@ body{
 .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
-    max-width: 300px;
+    max-width: 400px;
     margin: auto;
     margin-top: 180px;
     border-radius: 10px;
@@ -29,6 +29,7 @@ h1 {
     align-self: center;
     align-items: center;
     justify-content: center;
+    
 }
 
 .texto{
@@ -38,13 +39,78 @@ h1 {
     justify-content: space-around;
     display: flex;
     font-size: 16px;
-    margin-top: 15px;
-    padding: 20px;
+    
     
 }
 
 .plano{
-    background-color: hsl(224, 23%, 55%);
+    background-color: rgb(233, 233, 233);
+    width: 23rem;
+    height: 6rem;
+    margin-top: 1.5rem;
     border-radius: 20px;
-    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.plano::before{
+    content: url(/order-summary-component-main/images/icon-music.svg);
+    position: relative;
+    left: 1.5rem;
+    top: 1.3rem;
+    cursor: pointer;
+}
+
+.anual{
+    position: relative;
+    left: 2.8rem;
+    top: 0.9rem;
+}
+
+.anual>.ano{
+    color: hsl(223, 47%, 23%);
+    line-height: 2px;
+    font-weight: 900px;
+}
+
+
+.change{
+    position: relative;
+    left: 8rem;
+    top: 2rem;
+    font-weight: 700;
+}
+
+.change:hover{
+    color: hsl(245.3, 71.4%, 65.7%);
+    text-decoration: none;
+}
+
+.pagamento{
+    background-color: hsl(223, 47%, 23%);
+    color: white;
+    text-decoration: none;
+    border-radius: 9px;
+    padding: 1.1rem 7rem;
+    margin-top: 1.5rem;
+    box-shadow: 0px 6px 8px 4px hsl(224.2, 59.4%, 87.5%);
+    margin-left: 1.5rem;
+    width: 130px;  
+    
+}
+
+.pagamento:hover{
+    background-color: hsl(245.3, 71.4%, 65.7%);
+}
+
+.cancel{
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+    padding: 1.1rem 7rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.cancel:hover{
+    color: hsl(245.3, 71.4%, 65.7%);
 }

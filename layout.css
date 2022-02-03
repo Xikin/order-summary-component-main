@@ -18,6 +18,7 @@ body{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    overflow: hidden;
 }
 
 .illustration{
@@ -45,13 +46,14 @@ h1 {
 
 .plano{
     background-color: rgb(233, 233, 233);
-    width: 23rem;
+    width: 376px;
     height: 6rem;
-    margin-top: 1.5rem;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
     align-self: center;
+    position: relative;
+    margin: auto;
 }
 
 .plano::before{
@@ -95,8 +97,9 @@ h1 {
     padding: 1.1rem 7rem;
     margin-top: 1.5rem;
     box-shadow: 0px 6px 8px 4px hsl(224.2, 59.4%, 87.5%);
-    margin-left: 1.5rem;
-    width: 130px;  
+    margin-left: 15px;
+    width: 130px; 
+    position: relative; 
     
 }
 
@@ -114,3 +117,26 @@ h1 {
 .cancel:hover{
     color: hsl(245.3, 71.4%, 65.7%);
 }
+
+/* .menu-toggle{
+    color: #eee;
+            background-color: hsl(223, 47%, 23%);
+            border: solid 1px #777;
+            border-radius: 5px;
+            height: 40px;
+            padding: 10px 20px;
+            margin: 20px 15px;
+} */
+
+/* @media(max-width:397px){
+    .pagamento,
+    .plano, .cancel{
+        display: none;
+    }
+}
+
+@media(min-width: 396px) {
+    .menu-toggle{
+        display: none;
+    }
+} */

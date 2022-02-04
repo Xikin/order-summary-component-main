@@ -5,6 +5,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
+    flex-wrap: wrap;
 }
 
 .card{
